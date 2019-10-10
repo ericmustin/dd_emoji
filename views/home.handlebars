@@ -1,0 +1,11 @@
+<table>
+  <thead>
+    <tr> <td>Slack Emoji Status Top List </td> </tr>
+  </thead>
+  <tbody>
+  {{#each split_values as |value|}}
+    {{#check_if_https value}}
+    {{/check_if_https}}
+  {{/each}}
+  </tbody>
+</table>
